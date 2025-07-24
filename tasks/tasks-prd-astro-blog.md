@@ -27,7 +27,7 @@ Based on the PRD analysis, here are the tasks needed to implement the Astro tech
 
 ## Tasks
 
-- [ ] 1.0 Initialize Astro Project and Core Configuration
+- [x] 1.0 Initialize Astro Project and Core Configuration
   - [x] 1.1 Initialize new Astro project with minimal template
   - [x] 1.2 Install required dependencies (Astro content collections, markdown processing)
   - [x] 1.3 Configure astro.config.mjs with site URL, output settings, and GitHub Pages compatibility
@@ -35,12 +35,12 @@ Based on the PRD analysis, here are the tasks needed to implement the Astro tech
   - [x] 1.5 Update package.json scripts for development and deployment workflows
 
 - [ ] 2.0 Create Content Management System for Blog Posts
-  - [ ] 2.1 Set up Astro content collections configuration in src/content/config.ts
-  - [ ] 2.2 Define blog post schema with frontmatter fields (title, date, description, draft status)
-  - [ ] 2.3 Create src/content/posts/ directory structure
-  - [ ] 2.4 Create sample blog posts with frontmatter and Markdown content
-  - [ ] 2.5 Test YouTube embed HTML within Markdown content
-  - [ ] 2.6 Implement content collection queries for retrieving and sorting posts
+  - [x] 2.1 Set up Astro content collections configuration in src/content/config.ts
+  - [x] 2.2 Define blog post schema with frontmatter fields (title, date, description, draft status)
+  - [x] 2.3 Create src/content/posts/ directory structure
+  - [x] 2.4 Create sample blog posts with frontmatter and Markdown content
+  - [x] 2.5 Test YouTube embed HTML within Markdown content
+  - [x] 2.6 Implement content collection queries for retrieving and sorting posts
 
 - [ ] 3.0 Build Homepage with Chronological Post Listing
   - [ ] 3.1 Create src/pages/index.astro as the main homepage
