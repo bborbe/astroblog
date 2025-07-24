@@ -14,7 +14,8 @@
       "Bash(npm run build:*)",
       "Bash(rm:*)",
       "Bash(rmdir:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "Bash(gh pr view:*)"
     ],
     "deny": []
   }
