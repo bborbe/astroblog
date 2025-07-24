@@ -36,6 +36,17 @@ const sortedPosts = allBlogPosts.sort((a, b) =>
 				padding-bottom: 2rem;
 			}
 			
+			.hero-image {
+				margin-bottom: 2rem;
+			}
+			
+			.hero-image img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 12px;
+				box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+			}
+			
 			h1 {
 				color: #f0f6fc;
 				font-size: 2.5rem;
@@ -104,11 +115,22 @@ const sortedPosts = allBlogPosts.sort((a, b) =>
 				.post-item {
 					padding: 1rem;
 				}
+				
+				.hero-image {
+					margin-bottom: 1.5rem;
+				}
+				
+				.hero-image img {
+					border-radius: 8px;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<header>
+			<div class="hero-image">
+				<img src="/astroblog/hero-image.jpg" alt="AstroBlog - Space-themed illustration with laptop, rocket, and coding elements" />
+			</div>
 			<h1>Technical Blog</h1>
 			<p class="subtitle">Programming tutorials, web development tips, and tech insights</p>
 		</header>
