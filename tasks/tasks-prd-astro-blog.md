@@ -42,7 +42,7 @@ Based on the PRD analysis, here are the tasks needed to implement the Astro tech
   - [x] 2.5 Test YouTube embed HTML within Markdown content
   - [x] 2.6 Implement content collection queries for retrieving and sorting posts
 
-- [ ] 3.0 Build Homepage with Chronological Post Listing
+- [x] 3.0 Build Homepage with Chronological Post Listing
   - [x] 3.1 Create src/pages/index.astro as the main homepage
   - [x] 3.2 Query all published blog posts using content collections API
   - [x] 3.3 Sort posts by date (newest first) and filter out drafts
@@ -51,13 +51,13 @@ Based on the PRD analysis, here are the tasks needed to implement the Astro tech
   - [x] 3.6 Add basic navigation and site header
 
 - [ ] 4.0 Implement Individual Blog Post Pages
-  - [ ] 4.1 Create src/pages/posts/[...slug].astro for dynamic post routing
-  - [ ] 4.2 Implement getStaticPaths() to generate routes for all blog posts
-  - [ ] 4.3 Create PostLayout component with proper typography and spacing
-  - [ ] 4.4 Add post metadata display (title, date, reading time if desired)
-  - [ ] 4.5 Ensure YouTube embeds render responsively within post content
-  - [ ] 4.6 Add navigation back to homepage and between posts
-  - [ ] 4.7 Implement proper SEO meta tags for each post page
+  - [x] 4.1 Create src/pages/blog/[...slug].astro for dynamic post routing
+  - [x] 4.2 Implement getStaticPaths() to generate routes for all blog posts
+  - [x] 4.3 Create PostLayout component with proper typography and spacing
+  - [x] 4.4 Add post metadata display (title, date, reading time if desired)
+  - [x] 4.5 Ensure YouTube embeds render responsively within post content
+  - [x] 4.6 Add navigation back to homepage and between posts
+  - [x] 4.7 Implement proper SEO meta tags for each post page
 
 - [ ] 5.0 Add Responsive Design and Styling
   - [ ] 5.1 Create global CSS with mobile-first responsive design
