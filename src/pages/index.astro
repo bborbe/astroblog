@@ -25,25 +25,25 @@ const sortedPosts = allBlogPosts.sort((a, b) =>
 				max-width: 800px;
 				margin: 0 auto;
 				padding: 2rem;
-				background: #fff;
-				color: #333;
+				background: #0d1117;
+				color: #e6edf3;
 			}
 			
 			header {
 				text-align: center;
 				margin-bottom: 3rem;
-				border-bottom: 1px solid #eee;
+				border-bottom: 1px solid #30363d;
 				padding-bottom: 2rem;
 			}
 			
 			h1 {
-				color: #2c3e50;
+				color: #f0f6fc;
 				font-size: 2.5rem;
 				margin-bottom: 0.5rem;
 			}
 			
 			.subtitle {
-				color: #7f8c8d;
+				color: #7d8590;
 				font-size: 1.1rem;
 				margin: 0;
 			}
@@ -56,13 +56,15 @@ const sortedPosts = allBlogPosts.sort((a, b) =>
 			.post-item {
 				margin-bottom: 2rem;
 				padding: 1.5rem;
-				border: 1px solid #e1e8ed;
+				border: 1px solid #30363d;
 				border-radius: 8px;
-				transition: box-shadow 0.2s ease;
+				background: #161b22;
+				transition: box-shadow 0.2s ease, border-color 0.2s ease;
 			}
 			
 			.post-item:hover {
-				box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+				box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+				border-color: #58a6ff;
 			}
 			
 			.post-title {
@@ -71,22 +73,22 @@ const sortedPosts = allBlogPosts.sort((a, b) =>
 			}
 			
 			.post-title a {
-				color: #2c3e50;
+				color: #f0f6fc;
 				text-decoration: none;
 			}
 			
 			.post-title a:hover {
-				color: #3498db;
+				color: #58a6ff;
 			}
 			
 			.post-meta {
-				color: #7f8c8d;
+				color: #7d8590;
 				font-size: 0.9rem;
 				margin-bottom: 1rem;
 			}
 			
 			.post-description {
-				color: #555;
+				color: #c9d1d9;
 				line-height: 1.5;
 			}
 			
