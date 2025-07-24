@@ -34,7 +34,7 @@ Based on the PRD analysis, here are the tasks needed to implement the Astro tech
   - [x] 1.4 Set up TypeScript configuration if needed
   - [x] 1.5 Update package.json scripts for development and deployment workflows
 
-- [ ] 2.0 Create Content Management System for Blog Posts
+- [x] 2.0 Create Content Management System for Blog Posts
   - [x] 2.1 Set up Astro content collections configuration in src/content/config.ts
   - [x] 2.2 Define blog post schema with frontmatter fields (title, date, description, draft status)
   - [x] 2.3 Create src/content/posts/ directory structure
@@ -43,12 +43,12 @@ Based on the PRD analysis, here are the tasks needed to implement the Astro tech
   - [x] 2.6 Implement content collection queries for retrieving and sorting posts
 
 - [ ] 3.0 Build Homepage with Chronological Post Listing
-  - [ ] 3.1 Create src/pages/index.astro as the main homepage
-  - [ ] 3.2 Query all published blog posts using content collections API
-  - [ ] 3.3 Sort posts by date (newest first) and filter out drafts
-  - [ ] 3.4 Create PostCard component for displaying post previews
-  - [ ] 3.5 Implement post list layout with titles, dates, and descriptions
-  - [ ] 3.6 Add basic navigation and site header
+  - [x] 3.1 Create src/pages/index.astro as the main homepage
+  - [x] 3.2 Query all published blog posts using content collections API
+  - [x] 3.3 Sort posts by date (newest first) and filter out drafts
+  - [x] 3.4 Create PostCard component for displaying post previews
+  - [x] 3.5 Implement post list layout with titles, dates, and descriptions
+  - [x] 3.6 Add basic navigation and site header
 
 - [ ] 4.0 Implement Individual Blog Post Pages
   - [ ] 4.1 Create src/pages/posts/[...slug].astro for dynamic post routing
