@@ -3,6 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "description": "A minimal technical blog built with Astro.js",
+  "license": "BSD-2-Clause",
+  "author": "Benjamin Borbe",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
